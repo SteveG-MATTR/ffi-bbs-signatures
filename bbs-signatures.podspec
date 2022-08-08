@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/mattrglobal/ffi-bbs-signatures.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SteveG-MATTR/ffi-bbs-signatures.git", :tag => "#{s.version}" }
 
   s.vendored_libraries = 'wrappers/obj-c/libraries/libbbs.a'
   s.libraries = 'bbs'
