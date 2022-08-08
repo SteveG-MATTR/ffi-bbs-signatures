@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     "ENABLE_BITCODE" => "YES"
   }
 
-  s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
+  s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 arm64-simulator x86_64' }
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'wrappers/obj-c/tests/*.{h,m}'
